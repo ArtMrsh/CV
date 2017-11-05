@@ -1,0 +1,117 @@
+@media screen and (max-width: 1024px) {
+   .down_btn {
+   margin: 15vh auto 0 auto;
+}
+   .home_page__portrait {
+      width: 108px;
+      height: 108px;
+      right: 5%;
+      left: auto;
+      margin: 0;
+      background-position: -25px 0px;
+   }
+   .home_page__header {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   .home_page__description, .home_page__skills {
+      margin-bottom: 0;
+   }
+   .social, .home_page__languages, .home_page__contacts, .education {
+      width: 88%;
+      margin: 40px 6% 0 6%;
+   }
+   .social-links {
+      width: 59%;
+      margin: 34px auto 34px auto;
+   }
+   .lang {
+      margin: 34px auto 34px auto;
+   }
+   .socials_list {
+      text-align: center;
+   }
+   .socials_list li {
+      margin: 0;
+   }
+   .socials_list li + li {
+      margin-left: 7%;
+   }
+}
+@media screen and (max-width: 768px) {
+   header h1 {
+      font: 28px 'Roboto-Bold', sans-serif;
+   }
+   header h2 {
+      font: 18px 'Roboto-Regular', sans-serif;
+   }
+   .socials_list li + li {
+      margin-left: 0;
+   }
+}
+@media screen and (max-width: 532px) {
+   header h1 {
+      font: 28px 'Roboto-Bold', sans-serif;
+      word-wrap: break-word;
+}
+   .down_btn {
+   margin: 10vh auto 0 auto;
+}
+   .social-links {
+      width: 39%;
+   }
+   .home_page__portrait {
+      display: none;
+   }
+   .home_page__top_line h3 {
+      text-align: right;
+   }
+   .home_page__header h1 {
+      font: 24px 'Roboto-Regular', sans-serif;
+   }
+   .social, .home_page__languages, .home_page__contacts, .education, .home_page__description, .home_page__skills {
+      width: 96%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .lang {
+      float: none;
+      margin: 30px auto 0 auto;
+   }
+   .flag {
+      min-width: 100px;
+   }
+   .header_img {
+      width: 200px;
+      height: 200px;
+   }
+}
+/*HEIGHT*/
+@media screen and (max-height: 600px) {
+   .header_img {
+      height: 40vh;
+      width: 40vh;
+   }
+   header h1 {
+      font: 28px 'Roboto-Bold', sans-serif;
+      word-wrap: break-word;
+   }
+   header h2 {
+      font: 18px 'Roboto-Regular', sans-serif;
+   }
+   .nav_list {
+      margin-top: 10vh;
+   }
+}
+@media screen and (max-height: 380px) {
+   .header_inner {
+      padding-top: 10vh;
+   }
+   header h1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   .nav_list {
+      margin-top: 5vh;
+   }
+}
